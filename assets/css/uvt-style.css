@@ -1,0 +1,95 @@
+ /* .carousel img{ 
+  height: 95vh; */
+  /* width: ; */
+  /* width: 70%; */
+
+.fixed{
+  /* position:fixed; */
+  top:0;
+  z-index: 1;
+  width:100%;
+  height:100%;
+  background-repeat: repeat-x; 
+ }
+
+.table-12 {
+  background-color: #8ee2fa;
+}
+
+.table th{
+  border-bottom: 2px solid rgb(163, 163, 163);
+
+  font-family: "Raleway", sans-serif;
+  vertical-align: middle;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  font-weight: lighter;
+  font-size: 1em;
+}
+
+.carousel-item {
+  background-color: #757575;
+}
+
+.carousel-item img{
+  opacity: 50%;
+}
+
+#carouselExampleControlsNoTouching {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-uvt1 {
+  position: absolute;
+  z-index: 2;
+  justify-content: center;
+  align-items: center;
+  vertical-align: middle;
+  box-sizing: border-box;
+}
+
+/*<----- Animation Text ----->*/
+#uvt h1 {
+  margin: 0 0 10px 0;
+  font-size: 52px; /*52px*/
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+#uvt h2 {
+  color: rgba(255, 255, 255, 0.7);
+  margin-bottom: 35px;
+  font-size: 24px; /*24*/
+}
+
+#uvt .btn-get-started:hover {
+  border-color: #2CBBE3;
+  background: #2CBBE3;
+}
+@media (min-width: 1024px) {
+  #uvt {
+    background-attachment: fixed;
+  }
+}
+@media (max-width: 992px) {
+  #uvt {
+    margin-top: 60px;
+    height: calc(100vh - 60px);
+  }
+}
+@media (max-width: 768px) {
+  #uvt h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #uvt h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+}
+/*<----- Animation Text ----->*/
