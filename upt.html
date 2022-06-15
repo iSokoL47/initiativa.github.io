@@ -26,6 +26,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/uvt-style.css" rel="stylesheet">
   
 </head>
 
@@ -47,7 +48,7 @@
             <li><a class="nav-link scrollto" href="index.html">Despre noi</a></li>
             <li><a class="nav-link scrollto" href="index.html">Proiecte</a></li>
             <li><a class="nav-link scrollto" href="index.html">Poze</a></li>
-            <li class="dropdown"><a href="#admirere"><span>Admitere</span> <i class="bi bi-chevron-down"></i></a>
+            <li class="dropdown"><a class="active" href="#admirere"><span>Admitere</span> <i class="bi bi-chevron-down"></i></a>
               <ul>
                 <li><a href="upt.html">Universitatea Politehnică</a></li>
                 <li><a href="uvt.html">Universitatea de Vest</a></li>
@@ -56,7 +57,7 @@
             </li>
             <li><a class="nav-link scrollto" href="index.html">Parteneri</a></li>
             <li><a class="nav-link scrollto" href="index.html" >Board</a></li>
-            <li><a class="nav-link scrollto active" href="faq.html">Q&A</a></li>
+            <li><a class="nav-link scrollto" href="faq.html">FAQ</a></li>
             <li><a class="nav-link scrollto" href="index.html">Contacte</a></li>
           </ul>
           <i class="bi bi-list mobile-nav-toggle"></i>
@@ -67,66 +68,127 @@
 
   <main id="main">
 
-  <!-- ======= UPT Section ======= -->
-  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="/assets/img/upt.jpg" class="d-block w-100" alt="...">
+    <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false" data-bs-interval="false">
+      <div id="uvt" class="container text-center text-md-left text-uvt1" data-aos="fade-up">
+        <h1>Universitatea Politehnică</h1>
+        <h2>Timișoara</h2>
       </div>
-      <div class="carousel-item">
-        <img src="/assets/img/upt2.jpg" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="/assets/img/upt3.jpg" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
-  </div>
-
-  <section id="about" class="about">
-    <div class="container">
-
-      <div class="row">
-        <div class="col-xl-6 col-lg-7" data-aos="fade-right">
-          <br>
-          <h3 data-aos="fade-up"class="text-center">Despre Universitate</h3>
-          <br>
-          <br>
-          <p data-aos="fade-up" style="text-align: justify;" class="timeline-body" class="text-muted">
-            Universitatea Politehnica Timişoara, universitate de cercetare avansată şi educaţie, este astăzi una dintre şcolile româneşti cu tradiţie, recunoscută în plan naţional şi internaţional, atât prin activitatea generaţiilor de cadre didactice, cât şi prin activitatea de excepţie a unor academicieni prestigioşi. În spiritul tradiţiei, misiunea Universităţii Politehnica Timişoara constă în satisfacerea cerinţelor de competenţă ale mediului societal, prin asigurarea formării profesionale superioare, de nivel universitar şi postuniversitar. Purtătoare de valori fundamentale, misiunea reflectă, totodată, preocuparea pentru viitorul societăţii, prin trasarea direcţiilor de dezvoltare a acesteia în plan local, regional, naţional, internaţional. 
-          </p>
+      <div class="carousel-inner">
+        <div class="carousel-item fixed active">
+          <img src="./assets/img/upt.jpg" class="d-block w-100" alt="...">
         </div>
-        <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0" style="padding-left:55px;">
-          <br>
-          <h3 class="text-center" data-aos="fade-up">UPT în cifre</h3>
-          <br>
-          <br>
-          <ul class="list-group">
-            <li class="list-group-item">10 facultati</li>
-            <li class="list-group-item">26 de departamente</li>
-            <li class="list-group-item">26 de Centre si Institute de cercetare</li>
-            <li class="list-group-item">2 baze sportive</li>
-            <li class="list-group-item">16 cămine studențești</li>
-            <li class="list-group-item">2 Cantine și cămine cu regim hotelier</li>
-            <li class="list-group-item">1 Cantină studențească</li>
-            <li class="list-group-item">1 Policlinică studențească</li>
-            <li class="list-group-item">1 Bibliotecă Centrală UPT</li>
-            <li class="list-group-item">Aproximativ 800 cadre didactice</li>
-            <li class="list-group-item">72 titluri de Profesori Onorifici</li>
-          </ul>
-
+        <div class="carousel-item fixed">
+          <img src="./assets/img/upt2.jpg" class="d-block w-100" alt="...">
+        </div>
+        <div class="carousel-item fixed">
+          <img src="./assets/img/upt3.jpg" class="d-block w-100" alt="...">
         </div>
       </div>
-
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-  </section><!-- End About Section -->
+
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-xl-6 col-lg-7" data-aos="fade-right">
+            <br>
+            <h3 data-aos="fade-up"class="text-center">Scurt Despre UPT</h3>
+            <br>
+            <br>
+            <p data-aos="fade-up" style="text-align: justify;" class="timeline-body" class="text-muted"> 
+                Universitatea Politehnica Timişoara, universitate de cercetare avansată şi educaţie, este astăzi una dintre şcolile româneşti cu tradiţie, recunoscută în plan naţional şi internaţional, atât prin activitatea generaţiilor de cadre didactice, cât şi prin activitatea de excepţie a unor academicieni prestigioşi. <br><br> 
+                În spiritul tradiţiei, misiunea Universităţii Politehnica Timişoara constă în satisfacerea cerinţelor de competenţă ale mediului societal, prin asigurarea formării profesionale superioare, de nivel universitar şi postuniversitar. <br><br> 
+                Purtătoare de valori fundamentale, misiunea reflectă, totodată, preocuparea pentru viitorul societăţii, prin trasarea direcţiilor de dezvoltare a acesteia în plan local, regional, naţional, internaţional. 
+            </p>
+            <br>
+            <br>
+            <div>
+                <h5>Pentru mai multe informații referitoare la concursul de admitere 2022 a românilor de pretutindeni, puteți accesa site-ul oficial <a target="_blank" href="https://www.upt.ro/Informatii_romani-de-pretutindeni---admitere-licenta_1497_ro.html">UPT</a></h5>
+            </div>
+          </div>
+          <div class="col-xl-6 col-lg-5 pt-5 pt-lg-0" style="padding-left:60px;">
+            <br>
+            <h3 class="text-center">Facultățile UPT</h3>
+            <br>
+            <br>
+            <table class="table  table-striped">
+              <tr class="weight-800">
+                <th>Facultatea</th>
+                <th>Site</th>
+              </tr>
+              <tr>
+                <th>Facultatea de Arhitectură și Urbanism</th>
+                <th><a target="_blank" href="http://www.arh.upt.ro/">arh.upt.ro</a></th>
+              </tr>
+              <tr>
+                <th>Facultatea de Automatică și calcularoare</th>
+                <th><a target="_blank" href="http://www.ac.upt.ro/">ac.upt.ro</a></th>
+              </tr>
+              <tr>
+                <th>Facultatea de Chimie Industrială şi Ingineria Mediului</th>
+                <th><a target="_blank" href="http://www.chim.upt.ro/">chim.upt.ro</a></th>
+              </tr>
+              <tr>
+                <th>Facultatea de Construcţii</th>
+                <th><a target="_blank" href="http://www.ct.upt.ro/">ct.upt.ro</a></th>
+              </tr>
+              <tr>
+                <th>Facultatea de Electronică, Telecomunicaţii și Tehnologii Informaționale</th>
+                <th><a target="_blank" href="http://www.etcti.upt.ro/">etcti.upt.ro</a></th>
+              </tr>
+              <tr>
+                <th>Facultatea de Inginerie Electrică și Energetică</th>
+                <th><a target="_blank" href="http://www.et.upt.ro">et.upt.ro</a></th>
+              </tr>
+              <tr>
+                <th>Facultatea de Inginerie din Hunedoara</th>
+                <th><a target="_blank" href="http://www.fih.upt.ro/">fih.upt.ro</a></th>
+              </tr>
+              <tr>
+                <th>Facultatea de Management în Producţie şi Transporturi</th>
+                <th><a target="_blank" href="http://www.mpt.upt.ro/">mpt.upt.ro</a></th>
+              </tr>
+              <tr>
+                <th>Facultatea de Mecanică</th>
+                <th><a target="_blank" href="http://www.mec.upt.ro/">mec.upt.ro</a></th>
+              </tr>
+              <tr>
+                <th>Facultatea de Știinţe ale Comunicării</th>
+                <th><a target="_blank" href="http://sc.upt.ro/">sc.upt.ro</a></th>
+              </tr>
+            </table>
+            <div>
+                <p class="text-center weight-800">Numărul de locuri disponibile:</p>
+                <div style="display: flex; justify-content: space-between">
+                    <div>
+                        <p class="weight-800 text-center">Licență</p>
+                        <ul>
+                            <li>Fără taxă, cu bursă: 48</li>
+                            <li>Fără taxă, fără bursă: 50</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <p class="weight-800 text-center">Master</p>
+                        <ul>
+                            <li>Fără taxă, cu bursă: 6</li>
+                            <li>Fără taxă, fără bursă: 15</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
 
   </main><!-- End #main -->
 
