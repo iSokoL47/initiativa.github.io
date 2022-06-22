@@ -128,7 +128,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: space-between;
   padding: 12px 0;
   font-size: 14px;
-  color: rgba(255, 255, 255, 0.8);
+  color: rgb(255, 255, 255);
   white-space: nowrap;
   transition: 0.3s;
   position: relative;
@@ -904,7 +904,7 @@ section {
   padding: 0 0 0 60px;
   margin-bottom: 0;
   font-size: 14px;
-  color: #43857a;
+  color: #21413c;
 }
 .contact .info .email p {
   padding-top: 5px;
@@ -975,7 +975,7 @@ section {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #2CBBE3;
   border-top-color: #eee;
   -webkit-animation: animate-loading 2s linear infinite;
   animation: animate-loading 2s linear infinite;
@@ -1052,7 +1052,7 @@ section {
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #1c3733;
+  background: #2CBBE3;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -1085,7 +1085,7 @@ section {
 }
 #footer .footer-top .footer-links ul i {
   padding-right: 2px;
-  color: #4ae3c6;
+  color: #2CBBE3;
   font-size: 18px;
   line-height: 1;
 }
@@ -1259,7 +1259,7 @@ section {
   -webkit-animation-delay: 0.8s;
   animation-delay: 0.8s;
   border: 0;
-  background: #428bca;
+  background: #2CBBE3;
 }
 #hero .btn-get-started:hover {
   background: #1c5c93;
@@ -1299,7 +1299,7 @@ section {
   width: 2px;
   margin-left: -1.5px;
   content: "";
-  background-color: #e9ecef;
+  background-color: #2CBBE3;
 }
 .timeline > li {
   position: relative;
@@ -1341,9 +1341,9 @@ section {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #e9ecef;
+  border: 7px solid #2CBBE3;
   border-radius: 100%;
-  background-color: #ffc800;
+  background-color: #2CBBE3;
 }
 .timeline > li .timeline-image h4, .timeline > li .timeline-image .h4 {
   font-size: 10px;
@@ -1542,16 +1542,16 @@ section {
 }
 
 .clients .clients-wrap {
-  border-top: 1px solid #ececec;
-  border-left: 1px solid #ececec;
+  border-top: 1px solid #2CBBE3;
+  border-left: 1px solid #2CBBE3;
 }
 .clients .client-logo {
   padding: 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: 1px solid #ececec;
-  border-bottom: 1px solid #ececec;
+  border-right: 1px solid #2CBBE3;
+  border-bottom: 1px solid #2CBBE3;
   overflow: hidden;
   background: #fff;
   height: 100px;
@@ -1569,6 +1569,3 @@ section {
 .weight-800{
   font-weight: 800;
 }
-
-
-
