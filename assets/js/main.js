@@ -1,9 +1,3 @@
-/**
-* Template Name: Maxim - v4.6.0
-* Template URL: https://bootstrapmade.com/maxim-free-onepage-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
 (function() {
   "use strict";
 
@@ -273,7 +267,7 @@
    */
   window.addEventListener('load', () => {
     AOS.init({
-      duration: 1000,
+      duration: 5000,
       easing: "ease-in-out",
       once: true,
       mirror: false
