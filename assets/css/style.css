@@ -1276,6 +1276,10 @@ section {
   }
 }
 
+.carousel-control-prev, .carousel-control-next {
+  z-index: 2;
+}
+
 /* Sectiunea Proiecte */
 /* timeline */
 
