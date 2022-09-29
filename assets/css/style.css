@@ -699,6 +699,24 @@ section {
 /*--------------------------------------------------------------
 # Slider
 --------------------------------------------------------------*/
+@media(max-width: 768px ){
+  .swiper {
+    width: 800px;
+    height: 400px;
+    max-width: 90%;
+    max-height: 250px;
+  }
+
+  .slider img{
+    width: 800px;
+    max-width: 90%;
+  }
+
+  .slider .swiper-slide-shadow{
+    display: none;
+  }
+}
+
 .swiper {
   width: 800px;
   height: 400px;
