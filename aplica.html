@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formular cu Bootstrap</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Asociația Inițiativa din Timișoara</title>
+  <meta content="Asociatia Initiativa din Timisoara" name="description">
+  <meta content="admitere Timisoara romani de pretutindeni" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo4.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+</head>
+<body>
+      <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center">
+    <div class="container d-flex justify-content-between">
+
+      <div class="logo">
+        <a href="index.html"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>
+      </div>
+
+      <nav id="navbar" class="navbar">
+        <ul>
+          <li><a class="nav-link scrollto active" href="#hero">Acasă</a></li>
+          <li><a class="nav-link scrollto" href="#about">Despre noi</a></li>
+          <li><a class="nav-link scrollto" href="#slideshow">Proiecte</a></li>
+          <li><a class="nav-link scrollto" href="#slider">Poze</a></li>
+          <li><a class="nav-link scrollto" href="#clients">Parteneri</a></li>
+          <li><a class="nav-link scrollto" href="#team">Board</a></li>
+          <li><a class="nav-link scrollto" href="#contact">Contact</a></li>
+          <li class="dropdown"><a href="#admirere"><span>Admitere</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="upt.html">Universitatea Politehnica</a></li>
+              <li><a href="uvt.html">Universitatea de Vest</a></li>
+              <li><a href="umft.html">UMFT Victor Babeș</a></li>
+            </ul>
+          </li>
+          <li><a class="nav-link scrollto" href="faq.html">FAQ</a></li>
+          <li><a class="nav-link scrollto" href="aplica.html">Aplică</a></li>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
+
+    </div>
+  </header><!-- End Header -->
+  <br><br><br><br><br>
+  <div class="container">
+    <div class="section-title">
+        <h2>Hai în echipă!</h2>
+      </div>
+    <form id="myForm" action="#" method="POST">
+      <div class="row">
+        <div class="col-md-6"> 
+          <div class="form-group">
+            <label for="nume">Nume:</label>
+            <input type="text" class="form-control" id="nume" name="nume" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="prenume">Prenume:</label>
+            <input type="text" class="form-control" id="prenume" name="prenume" required>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="dataNasterii">Zi de naștere:</label>
+            <input type="date" class="form-control" id="dataNasterii" name="dataNasterii" required>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label>Sex:</label>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gen" id="feminin" value="feminin" required>
+              <label class="form-check-label" for="feminin">Feminin</label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="gen" id="masculin" value="masculin" required>
+              <label class="form-check-label" for="masculin">Masculin</label>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="numarTelefon">Număr de telefon:</label>
+            <input type="tel" class="form-control" id="numarTelefon" name="numarTelefon" pattern="[0-9]{10}" required>
+            <small class="form-text text-muted">Introduceți un număr de telefon format din 10 cifre.</small>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="departament">Departamentul:</label>
+            <select class="form-control" id="departament" name="departament" required>
+              <option value="">Alegeți un departament</option>
+              <option value="PR">PR</option>
+              <option value="HR">HR</option>
+              <option value="EDU">EDU</option>
+              <option value="FR">FR</option>
+            </select>
+           </div>
+        </div>
+       </div>
+        <div class="form-group">
+            <label for="mesaj">Lăsați un mesaj:</label>
+            <textarea class="form-control" id="mesaj" name="mesaj" rows="3"></textarea>
+        </div>
+        <div style="display: flex;" class="justify-content-center">
+            <button type="submit" class="btn btn-primary" style="border-color: #2CBBE3;background-color: #2CBBE3; ">Trimite</button>
+        </div>
+     
+    </form>
+</div>
+<br>
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+           <div class="container">
+           <div class="copyright">
+           <b>&copy; Asociația Inițiativa din Timișoara 2023</b><strong><span></span></strong>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+   <!-- End Footer -->
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<script>
+  // Validarea formularului folosind jQuery
+  $(document).ready(function () {
+    $('#myForm').submit(function (event) {
+      event.preventDefault();
+      if ($('#myForm')[0].checkValidity()) {
+        // Trimiteți datele formularului la server aici sau executați alte acțiuni
+        alert('Formularul a fost trimis');
+      } else {
+        // Afiseaza mesajul de eroare sau alte acțiuni
+        alert('Vă rugăm să completați corect toate câmpurile.');
+      }
+    });
+  });
+</script>
+</body>
+</html>
+
